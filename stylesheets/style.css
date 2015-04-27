@@ -1,0 +1,137 @@
+body {
+  background-image: url('');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+p {
+  margin: 0;
+}
+
+#map { 
+	height: 500px;
+	width: 500px; 
+	color: black;
+	position: relative;	
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+	max-width: 400px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+
+.row {
+  margin: 0;
+}
+
+
+.articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.commitment {
+  color: #222;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+  border-radius: 25px;
+}
+
+.article {
+  color: #222;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+  border-left: 1px #e5e5e5 solid;
+  border-right: 1px #e5e5e5 solid;
+  border-radius: 25px;
+}
+
+
+.current .item {
+  background: rgba(186,143,136,.9);
+  border-radius: 25px;
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 25px;
+  
+}
+
+.itemHover {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background: rgba(225,225,225,.9);
+  border-radius: 25px;
+  
+}
+
+.item .source {
+  margin-left: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.item .qlrtitle {
+  color: #cf1b41;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item .title {
+  font-weight: bold;
+}
+
+.item .story {
+  font-weight: normal;
+}
+
+.description {
+  /*display: block;*/
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(74,70,70,.9);
+  border-radius: 25px;
+  color: white;
+}
+
+.description h1 {
+  margin-top: 0px;
+  font-size: 23px;
+}
+
+
